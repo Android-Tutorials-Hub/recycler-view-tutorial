@@ -67,7 +67,7 @@ public class ItemDividerDecoration extends RecyclerView.ItemDecoration {
         if (orientation != HORIZONTAL_LIST && orientation != VERTICAL_LIST) {
             throw new IllegalArgumentException("invalid orientation");
         }
-        orientation = orientation;
+        this.orientation = orientation;
     }
 
     @Override
